@@ -1,38 +1,36 @@
 .App {
-  text-align: center;
+	text-align: center;
+	/* background-color: #c6e5f6; */
+	/* padding: 2px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main_Card {
+	margin: 2rem;
+	padding: 2rem;
+	background-color: #f3f5f5 !important;
+	width: 57%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Card_BtnDiv {
+	margin-top: 2rem;
+	text-align: center;
+}
+/* required symbol(*) */
+.MuiFormLabel-asterisk {
+	color: red;
+}
+.TableHeader {
+	font-weight: bold !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Main_Div {
+	display: flex;
+	justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.PersonalInformationFormDiv {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	justify-content: space-between;
 }
